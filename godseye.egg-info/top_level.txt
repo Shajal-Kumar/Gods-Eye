@@ -1,4 +1,0 @@
-adapters
-godseye
-orchestrator
-store
