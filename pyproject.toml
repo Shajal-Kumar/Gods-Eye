@@ -1,0 +1,23 @@
+#[build-system]
+#requires = ["setuptools>=61.0"]
+#build-backend = "setuptools.build_meta"
+
+[project]
+name = "godseye"
+version = "0.1.0"
+description = "God's Eye: OSINT and intelligence gathering tool"
+authors = [
+    { name = "Shajal", email = "shajalapsdel@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    # list your dependencies here
+]
+
+[tool.setuptools]
+packages = ["godseye", "store", "adapters", "orchestrator"]
+
+[project.scripts]
+godseye = "godseye.cli:main"

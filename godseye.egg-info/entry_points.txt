@@ -1,0 +1,2 @@
+[console_scripts]
+godseye = godseye.cli:main
