@@ -24,6 +24,6 @@ def gradient_text(text: str, start_color: str, end_color: str) -> Text:
     return rich_text
 
 def show_banner(message: str):
-    ascii_art = pyfiglet.figlet_format(message, font="bloody")
+    ascii_art = pyfiglet.figlet_format(message, font="dos_rebel", width=200)
     for line in ascii_art.splitlines():
         console.print(gradient_text(line, "#FFD700", "#00FFFF"), justify="center")  # Gold → Cyan

@@ -2,6 +2,8 @@
 
 > **An Intelligent, Human-in-the-Loop OSINT Automation Framework.**
 
+![God's Eye](assets/Banner.png)
+
 **God's Eye** is a modular reconnaissance tool designed to automate the digital footprinting process while maintaining high accuracy. Unlike rigid scrapers that fail when a specific source is missing, God's Eye uses a **configurable priority engine** to pivot across multiple platforms (LinkedIn, Twitter, Behance, etc.) based on user-defined strategies.
 
 ## 🚀 How It Works
