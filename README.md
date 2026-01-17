@@ -1,4 +1,4 @@
-# God's Eye 👁️
+# God's Eye 
 
 > **An Intelligent, Human-in-the-Loop OSINT Automation Framework.**
 
@@ -13,14 +13,14 @@
 3.  **Human-in-the-Loop (HITL):** Between pivots, the tool presents potential profile matches. You verify the correct "Persona," and that verified data is used to seed the next search.
 4.  **Dossier Generation:** All verified intelligence is aggregated into a structured report (PDF/HTML/MD).
 
-## ✨ Key Features
+## Key Features
 
 * **Dynamic Source Fallback:** Handles missing profiles gracefully by switching to alternate data sources.
 * **Case Management:** Built-in database to save, view, and delete investigations (`run_id`).
 * **Human-in-the-Loop Verification:** Prevents false data propagation by allowing manual target confirmation.
 * **Multi-Format Export:** Generate clean HTML/PDF/MD dossiers for your investigations.
 
-## 🛠️ Installation
+## Installation
 
 God's Eye is packaged for easy installation via pip.
 
@@ -38,7 +38,7 @@ Here is the text converted into clean Markdown, ready to be pasted into your `RE
 
 ```
 
-## 💻 Usage
+## Usage
 
 Once installed, use `godseye` followed by a subcommand.
 
@@ -90,7 +90,7 @@ godseye delete -r 12345
 
 ```
 
-## 🗺️ Roadmap & Future Integration
+## Roadmap & Future Integration
 
 * [ ] **Public Database Integration:**
 * **Indian Context:** Zauba Corp (Corporate Directors), eCourts services.
@@ -99,7 +99,7 @@ godseye delete -r 12345
 
 * [ ] **Visual Graphing:** Generating a relationship map of the target's digital presence.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is designed for **educational purposes, authorized security testing (Red Teaming), and open-source intelligence research only**. The author is not responsible for any misuse of this tool. Always ensure you have permission or are conducting research on public data.
 
