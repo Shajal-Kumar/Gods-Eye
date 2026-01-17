@@ -103,8 +103,9 @@ This tool is designed for **educational purposes, authorized security testing (R
 
 ---
 
-*Created by [Shajal Kumar*](https://github.com/Shajal-Kumar)
+*Created by* [Shajal Kumar](https://github.com/Shajal-Kumar)
 
 ```
 
 ```
+
