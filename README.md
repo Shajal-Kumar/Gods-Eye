@@ -6,17 +6,17 @@
 
 ## 🚀 How It Works
 
-1.  **Configurable Strategy:** You define the "search mode" (e.g., *Professional* prioritizes LinkedIn $\rightarrow$ GitHub; *Social* prioritizes Twitter $\rightarrow$ Instagram).
+1.  **Configurable Strategy:** You define the "search mode" (e.g., *Professional* prioritizes LinkedIn $\rightarrow$ GitHub; *Social* prioritizes Twitter $\rightarrow$ Instagram; *Informational* prioritizes $\rightarrow$ Public Data Sources).
 2.  **Smart Fallback:** If the primary source yields no results, the engine automatically pivots to the next available source, ensuring the search never hits a dead end.
 3.  **Human-in-the-Loop (HITL):** Between pivots, the tool presents potential profile matches. You verify the correct "Persona," and that verified data is used to seed the next search.
-4.  **Dossier Generation:** All verified intelligence is aggregated into a structured report (PDF/HTML).
+4.  **Dossier Generation:** All verified intelligence is aggregated into a structured report (PDF/HTML/MD).
 
 ## ✨ Key Features
 
 * **Dynamic Source Fallback:** Handles missing profiles gracefully by switching to alternate data sources.
-* **Case Management:** Built-in database to save, view, and resume investigations (`run_id`).
+* **Case Management:** Built-in database to save, view, and delete investigations (`run_id`).
 * **Human-in-the-Loop Verification:** Prevents false data propagation by allowing manual target confirmation.
-* **Multi-Format Export:** Generate clean HTML or PDF dossiers for your investigations.
+* **Multi-Format Export:** Generate clean HTML/PDF/MD dossiers for your investigations.
 
 ## 🛠️ Installation
 
@@ -77,7 +77,7 @@ godseye export -r 12345 -f pdf
 
 **Flags:**
 
-* `-f, --format`: Output format (`html` or `pdf`). Default is `html`.
+* `-f, --format`: Output format (`html` or `pdf` or `md`). Default is `html`.
 
 ### 4. Manage Data
 
@@ -104,8 +104,3 @@ This tool is designed for **educational purposes, authorized security testing (R
 ---
 
 *Created by* [Shajal Kumar](https://github.com/Shajal-Kumar)
-
-```
-
-```
-
